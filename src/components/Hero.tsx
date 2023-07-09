@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 
 export default function HeroSection () {
   return (
-    <div className='bg-wine flex grow flex-col gap-[5rem] justify-center items-center object-cover'>
+    <div className='h-[100vh] bg-wine flex grow flex-col gap-[5rem] justify-center items-center object-cover relative'>
       <Image 
         src='/heroImg.svg' 
         alt='bg-img'

@@ -1,10 +1,18 @@
 import HeroSection from '@/components/Hero'
+import Pricing from '@/components/Pricing'
+import WhomDoYouHelp from '@/components/WhomDoYouHelp'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <HeroSection />
+    <div
+      className='flex flex-col'
+    >
+      <HeroSection />
+      <WhomDoYouHelp />
+      <Pricing />
+    </div>
   )
 }
