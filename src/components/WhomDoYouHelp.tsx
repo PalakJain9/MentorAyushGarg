@@ -29,7 +29,7 @@ export default function WhomDoYouHelp () {
                 >A Problem Solver
               </p>
               <Image
-                src='/iDontHaveTime.png'
+                src='/iDontHaveTime.PNG'
                 alt="i don't have time for jokes"
                 width={100}
                 height={100}
@@ -54,7 +54,7 @@ export default function WhomDoYouHelp () {
               > A Community Person
             </p>
             <Image
-              src='/communityPerson.png'
+              src='/communityPerson.PNG'
               alt="i don't have time for jokes"
               width={100}
               height={100}
@@ -77,7 +77,7 @@ export default function WhomDoYouHelp () {
               > A Loyal Bhakt
             </p>
             <Image
-              src='/bhakt.png'
+              src='/bhakt.PNG'
               alt="i don't have time for jokes"
               width={100}
               height={100}

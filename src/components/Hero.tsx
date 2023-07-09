@@ -27,7 +27,7 @@ export default function HeroSection () {
         
         <Link 
           href='https://www.linkedin.com/in/palakjain9'>
-          <button className='bg-red text-white p-[1rem] rounded-md'>
+          <button className='w-[11rem] bg-red text-white p-[1rem] rounded-md'>
             Say Yes
           </button>
         </Link>

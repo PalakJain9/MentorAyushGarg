@@ -34,7 +34,9 @@ export default function Footer () {
             href='https://palakjain.hashnode.dev/'
           ><Edit3Icon className={iconStyle} /></Link>
         </div>
-        <p>check source code here ⚡</p>
+        <Link
+          href='https://github.com/PalakJain9/MentorAyushGarg'
+          ><p>check source code here ⚡</p></Link>
 
         </div>
       </div>
