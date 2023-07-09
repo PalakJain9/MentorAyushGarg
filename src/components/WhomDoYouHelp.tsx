@@ -1,11 +1,14 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function WhomDoYouHelp () {
   const tileStyle = "bg-white rounded-md p-[2rem] flex flex-col gap-2 justify-center items-center w-full h-[21rem]"
   const textStyle = 'text-white text-center'
+  const linkStyle = "underline italic"
 
   return (
     <div
+      id="whomDoYouHelp"
       className="bg-wine flex flex-col gap-[5rem] justify-center items-center p-[2rem]"
     >
       <div className="flex flex-col gap-2 text-white">
@@ -16,7 +19,7 @@ export default function WhomDoYouHelp () {
         <p className="text-sm">* SOMETHING ABOUT PALAK</p>
       </div>
 
-      <div className='w-2/3 flex flex-col lg:flex-row gap-10 justify-center items-center'>
+      <div className='w-2/3 flex flex-col lg:flex-row gap-10 justify-center items-start'>
 
         <div className='w-full flex flex-col gap-2 justify-center items-center'>
           <div 
@@ -36,7 +39,11 @@ export default function WhomDoYouHelp () {
           <p
             className={textStyle}
           >
-            A passionate developer creating delightful experiences on the web and making products that people love. I speak multiple languages, know more about at <span>GitHub</span>
+            A passionate developer creating delightful experiences on the web and making products that people love. I speak multiple languages, know more about at <Link 
+              href='https://github.com/PalakJain9'
+              className={linkStyle}
+            > GitHub
+            </Link>
           </p>
         </div>
 
@@ -55,7 +62,11 @@ export default function WhomDoYouHelp () {
             />
           </div>
           <p className={textStyle}>
-            Strengthened tech @Google Developer Student Clubs at my university and building a community of designers @Figma J chapter. WAGMI! Know more at <span>LinkedIn</span>
+            Strengthened tech @Google Developer Student Clubs at my university and building a community of designers @Figma J chapter. WAGMI! Know more at <Link
+              href='https://www.linkedin.com/in/palakjain9'
+              className={linkStyle}
+            > LinkedIn
+            </Link>
           </p>
         </div>
 

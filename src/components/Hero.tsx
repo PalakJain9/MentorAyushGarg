@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 
 export default function HeroSection () {
   return (
@@ -13,7 +14,8 @@ export default function HeroSection () {
       />
       
       <Navbar />
-      <div className='w-2/3 lg:w-1/2 text-center flex flex-col gap-8 justify-center items-center text-white'>
+
+      <div className='w-2/3 lg:w-1/2 text-center flex flex-col gap-8 justify-center items-center text-white z-30'>
 
         <p className='text-3xl lg:text-4xl font-bold'>
           Seeking your guidance to level up my job hunting game
@@ -22,10 +24,13 @@ export default function HeroSection () {
         <p className='text-xl'>
           Meet a full stack developer ready to <span className='underline italic'>work hard, have fun and make history</span>.
         </p>
-
-        <button
-          className='w-[11rem] bg-red hover:bg-rose-700 p-[1rem] rounded-md'
-        > Say Yes</button>
+        
+        <Link 
+          href='https://www.linkedin.com/in/palakjain9'>
+          <button className='bg-red text-white p-[1rem] rounded-md'>
+            Say Yes
+          </button>
+        </Link>
 
       </div>
     </div>

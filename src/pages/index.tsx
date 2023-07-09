@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import HeroSection from '@/components/Hero'
 import Pricing from '@/components/Pricing'
 import WhomDoYouHelp from '@/components/WhomDoYouHelp'
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <WhomDoYouHelp />
       <Pricing />
+      <Footer />
     </div>
   )
 }
